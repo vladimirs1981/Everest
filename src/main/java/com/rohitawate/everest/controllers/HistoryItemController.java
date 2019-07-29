@@ -37,7 +37,7 @@ public class HistoryItemController implements Initializable, Searchable<Composer
     @FXML
     private Tooltip tooltip;
 
-    private static final String GETStyle = "-fx-text-fill: orangered";
+    private static final String GETStyle = "-fx-text-fill: green";
     private static final String POSTStyle = "-fx-text-fill: cornflowerblue";
     private static final String PUTStyle = "-fx-text-fill: deeppink";
     private static final String PATCHStyle = "-fx-text-fill: teal";
