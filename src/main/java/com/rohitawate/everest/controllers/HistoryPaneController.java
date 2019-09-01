@@ -66,4 +66,15 @@ public class HistoryPaneController extends SearchablePaneController<ComposerStat
 	public void setSyncManager(SyncManager syncManager) {
 		this.syncManager = syncManager;
 	}
+	public void clearSearchHistory() {
+		syncManager.clearHistory();
+	}
 }
+/*
+ * Iskoristiti syncmenager za ciscenje istorije
+ * Tomcat
+ * Glassfish
+ * 
+ * 
+ *  
+ *  */
