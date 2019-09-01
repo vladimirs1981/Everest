@@ -129,7 +129,7 @@
                                                     <children>
                                                         <HBox alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
                                                             <children>
-                                                                <Label fx:id="statusCode" text="404" textFill="WHITE"
+                                                                <Label fx:id="statusCode" text="404" textFill="RED"
                                                                        HBox.hgrow="ALWAYS">
                                                                     <font>
                                                                         <Font name="System Bold" size="22.0"/>
@@ -139,7 +139,7 @@
                                                                     </HBox.margin>
                                                                 </Label>
                                                                 <Label fx:id="statusCodeDescription" text="Not Found"
-                                                                       textFill="WHITE" HBox.hgrow="ALWAYS">
+                                                                       textFill="RED" HBox.hgrow="ALWAYS">
                                                                     <font>
                                                                         <Font size="18.0"/>
                                                                     </font>
@@ -168,7 +168,7 @@
                                                             </HBox.margin>
                                                         </Label>
                                                         <JFXButton fx:id="copyBodyButton" textFill="WHITE"
-                                                                   HBox.hgrow="ALWAYS">
+                                                                   HBox.hgrow="ALWAYS" onAction="#copyButtonReaction">
                                                             <graphic>
                                                                 <ImageView fitHeight="20.0" fitWidth="20.0"
                                                                            pickOnBounds="true" preserveRatio="true">
